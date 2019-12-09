@@ -14,10 +14,14 @@ spot is!
 
 
 
+
+
 Technologies Used:
 
 Computer Vision, Machine Learning, App Development, Cloud
 Computing
+
+
 
 
 
@@ -34,6 +38,8 @@ slots are available in that parking lot. The user when selects the
 parking lot, the app should guide the user to the parking lot.
 The backend of the project is to be hosted on a cloud service
 which will provide real time data to the data.
+
+
 
 
 
