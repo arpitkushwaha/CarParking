@@ -17,7 +17,6 @@ spot is!
 
 
 Technologies Used:
-
 Computer Vision, Machine Learning, App Development, Cloud
 Computing
 
@@ -26,7 +25,6 @@ Computing
 
 
 Approach to implement Project:
-
 Obtaining Dataset with recording of parking lots having active
 scenario of cars leaving and coming. With the help of the
 dataset we have to train the model to detect cars, parking spots
@@ -44,7 +42,6 @@ which will provide real time data to the data.
 
 
 Timeline/Modular Segmentation of Project:
-
 Android developers will be designing the app and concurrently
 mentees experiences with machine learning will achieve the results
 they are supposed to achieve. After the backend is complete, the
