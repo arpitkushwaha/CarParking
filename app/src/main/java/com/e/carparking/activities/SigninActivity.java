@@ -15,6 +15,7 @@ public class SigninActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setTitle("Sign In");
         setContentView(R.layout.activity_signin);
+        //Initialization Of Fields.
         TextView uName = findViewById(R.id.userName);
         TextView uMailId = findViewById(R.id.userMailID);
         TextView uPhoneNo = findViewById(R.id.userPhoneNo);
