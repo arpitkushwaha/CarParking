@@ -10,6 +10,9 @@ import android.os.Bundle;
 import android.os.Looper;
 import android.provider.Settings;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
@@ -26,6 +29,7 @@ import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 import com.here.sdk.core.GeoCoordinates;
 import com.here.sdk.mapviewlite.MapScene;
 import com.here.sdk.mapviewlite.MapStyle;
@@ -122,6 +126,7 @@ public class MapActivity extends AppCompatActivity {
                 if(errorCode == null) {
                     mapView.getCamera().setTarget(new GeoCoordinates(Double.parseDouble(latitude), Double.parseDouble(longitude)));
                     mapView.getCamera().setZoomLevel(18);
+
                 } else {
                     Log.d(TAG, "onLoadScene failed: "+errorCode.toString());
                 }
@@ -187,6 +192,30 @@ public class MapActivity extends AppCompatActivity {
             longitude = mLastLocation.getLongitude()+"";
         }
     };
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+//        super.onCreateOptionsMenu(menu);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_map, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.menu_item_signin:
+                Intent i = new Intent(MapActivity.this, SigninActivity.class);
+                startActivity(i);
+                return true;
+            case R.id.menu_item_about:
+                Snackbar.make(findViewById(R.id.parent_layout),"Copyright 2020",Snackbar.LENGTH_LONG).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
 
     @Override
