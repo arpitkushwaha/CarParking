@@ -1,99 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activities.SigninActivity">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <Button
-        android:id="@+id/signUpButton"
-        android:layout_width="178dp"
-        android:layout_height="46dp"
-        android:layout_alignTop="@+id/uPhonelayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="122dp"
-        android:layout_marginBottom="176dp"
-        android:text="Book Your Place" />
-
-    <ImageButton
-        android:id="@+id/label"
-        android:layout_width="159dp"
-        android:layout_height="104dp"
-        android:layout_above="@+id/uNamelayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="118dp"
-        android:layout_marginEnd="133dp"
-        android:layout_marginBottom="30dp"
-        android:backgroundTint="#333132"
-        android:scaleType="fitXY"
-        android:textAlignment="center"
-        app:srcCompat="@drawable/splashactivity" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/uMaillayout"
-        android:layout_width="335dp"
-        android:layout_height="80dp"
-        android:layout_above="@+id/uNamelayout"
-        android:layout_alignTop="@+id/uNamelayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="94dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="-174dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/userMailID"
-            android:layout_width="294dp"
-            android:layout_height="wrap_content"
-            android:hint="Your mail ID" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/uPhonelayout"
-        android:layout_width="335dp"
-        android:layout_height="79dp"
-        android:layout_alignTop="@+id/uMaillayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="98dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="236dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/userPhoneNo"
-            android:layout_width="294dp"
-            android:layout_height="wrap_content"
-            android:hint="Your phone No." />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/uNamelayout"
-        android:layout_width="335dp"
-        android:layout_height="79dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="56dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="430dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/userName"
-            android:layout_width="294dp"
-            android:layout_height="wrap_content"
-            android:hint="Your Name"
-            android:textColor="#F3FFFFFF"
-            android:textColorHint="#EEE4E4" />
-    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
 
 
-</RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_margin="10dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/input_emailid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:errorEnabled="true"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/colorAccent"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_margin="10dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/input_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:inputType="textPassword"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_signin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:background="@drawable/rectangle_round_corners"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                    android:text="Sign in"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
