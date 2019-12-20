@@ -33,15 +33,6 @@ The backend of the project is to be hosted on a cloud service
 which will provide real time data to the data.
 
 
-
-<br><b>Timeline/Modular Segmentation of Project:</b> <br>
-Android developers will be designing the app and concurrently
-mentees experiences with machine learning will achieve the results
-they are supposed to achieve. After the backend is complete, the
-cloud engineers will deploy the model on a cloud service. After which
-the app developers will connect the cloud service with app to get the
-real time data.
-
 <br><br>
 <b>Screenshots :</b>
 <br><br><br>
