@@ -50,7 +50,7 @@ the app developers will connect the cloud service with app to get the
 real time data.
 
 
-![Alt text](/screenshots/1.png?raw=true "")
+<img src="screenshots/1.png" height="500">
 
 ![Alt text](/screenshots/2.png?raw=true "")
 
