@@ -19,7 +19,7 @@ Computer Vision, Machine Learning, App Development, Cloud
 Computing.
 
 
-Approach to implement Project:  <br>
+<br><b>Approach to implement Project: </b> <br>
 Obtaining Dataset with recording of parking lots having active
 scenario of cars leaving and coming. With the help of the
 dataset we have to train the model to detect cars, parking spots
