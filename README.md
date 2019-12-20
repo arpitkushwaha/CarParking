@@ -14,12 +14,12 @@ spot is!
 
 
 
-<br><b>Technologies Used:</b>  <br><br>
+<br><b>Technologies Used:</b>  <br>
 Computer Vision, Machine Learning, App Development, Cloud
 Computing.
 
 
-<br><b>Approach to implement Project: </b> <br><br>
+<br><b>Approach to implement Project: </b> <br>
 Obtaining Dataset with recording of parking lots having active
 scenario of cars leaving and coming. With the help of the
 dataset we have to train the model to detect cars, parking spots
