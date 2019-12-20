@@ -34,9 +34,7 @@ which will provide real time data to the data.
 
 
 
-
-
-Timeline/Modular Segmentation of Project: <br>
+<br><b>Timeline/Modular Segmentation of Project:</b> <br>
 Android developers will be designing the app and concurrently
 mentees experiences with machine learning will achieve the results
 they are supposed to achieve. After the backend is complete, the
@@ -45,7 +43,7 @@ the app developers will connect the cloud service with app to get the
 real time data.
 
 <br><br>
-Screenshots :
+<b>Screenshots :</b>
 <br><br><br>
 <img src="screenshots/1.png" height="500"><br><br><br>
 <img src="screenshots/2.png" height="500"><br><br><br>
