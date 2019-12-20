@@ -49,17 +49,12 @@ cloud engineers will deploy the model on a cloud service. After which
 the app developers will connect the cloud service with app to get the
 real time data.
 
-
-<img src="screenshots/1.png" height="500">
-
-![Alt text](/screenshots/2.png?raw=true "")
-
-![Alt text](/screenshots/3.png?raw=true "")
-
-![Alt text](/screenshots/4.png?raw=true "")
-
-![Alt text](/screenshots/5.png?raw=true "")
-
-![Alt text](/screenshots/6.png?raw=true "")
-
-![Alt text](/screenshots/7.png?raw=true "")
+Screenshots :
+<br><br>
+<img src="screenshots/1.png" height="500"><br>
+<img src="screenshots/2.png" height="500"><br>
+<img src="screenshots/3.png" height="500"><br>
+<img src="screenshots/4.png" height="500"><br>
+<img src="screenshots/5.png" height="500"><br>
+<img src="screenshots/6.png" height="500"><br>
+<img src="screenshots/7.png" height="500"><br>
