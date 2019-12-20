@@ -2,7 +2,7 @@
 
 
 
-Problem Statement:
+<center><h3><b>Problem Statement:</b></h3><center>
 
 A major problem in metropolitan areas is finding parking spaces.
 Existing parking guidance systems often adopt fixed sensors or cameras
@@ -16,7 +16,7 @@ spot is!
 
 
 
-Technologies Used:
+Technologies Used:  <br>
 Computer Vision, Machine Learning, App Development, Cloud
 Computing
 
@@ -24,7 +24,7 @@ Computing
 
 
 
-Approach to implement Project:
+Approach to implement Project:  <br>
 Obtaining Dataset with recording of parking lots having active
 scenario of cars leaving and coming. With the help of the
 dataset we have to train the model to detect cars, parking spots
@@ -41,7 +41,7 @@ which will provide real time data to the data.
 
 
 
-Timeline/Modular Segmentation of Project:
+Timeline/Modular Segmentation of Project: <br>
 Android developers will be designing the app and concurrently
 mentees experiences with machine learning will achieve the results
 they are supposed to achieve. After the backend is complete, the
@@ -49,8 +49,9 @@ cloud engineers will deploy the model on a cloud service. After which
 the app developers will connect the cloud service with app to get the
 real time data.
 
-Screenshots :
 <br><br>
+Screenshots :
+<br><br><br>
 <img src="screenshots/1.png" height="500"><br><br><br>
 <img src="screenshots/2.png" height="500"><br><br><br>
 <img src="screenshots/3.png" height="500"><br><br><br>
