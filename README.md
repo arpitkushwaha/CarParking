@@ -2,7 +2,7 @@
 
 
 
-<h1><b>Problem Statement:</b></h1>
+<h3><b>Problem Statement:</b></h3>
 
 A major problem in metropolitan areas is finding parking spaces.
 Existing parking guidance systems often adopt fixed sensors or cameras
@@ -14,14 +14,9 @@ spot is!
 
 
 
-
-
-<h3><b>Technologies Used:</b></h3>  <br>
+<b>Technologies Used:</b>  <br>
 Computer Vision, Machine Learning, App Development, Cloud
-Computing
-
-
-
+Computing.
 
 
 Approach to implement Project:  <br>
