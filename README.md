@@ -48,3 +48,18 @@ they are supposed to achieve. After the backend is complete, the
 cloud engineers will deploy the model on a cloud service. After which
 the app developers will connect the cloud service with app to get the
 real time data.
+
+
+![Alt text](/screenshots/1.png?raw=true "")
+
+![Alt text](/screenshots/2.png?raw=true "")
+
+![Alt text](/screenshots/3.png?raw=true "")
+
+![Alt text](/screenshots/4.png?raw=true "")
+
+![Alt text](/screenshots/5.png?raw=true "")
+
+![Alt text](/screenshots/6.png?raw=true "")
+
+![Alt text](/screenshots/7.png?raw=true "")
