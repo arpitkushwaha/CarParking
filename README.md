@@ -18,7 +18,7 @@ spot is!
 
 Technologies Used:
 Computer Vision, Machine Learning, App Development, Cloud
-Computing
+Computing.
 
 
 
